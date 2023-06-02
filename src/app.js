@@ -3,12 +3,12 @@ import ColorThief from 'colorthief/dist/color-thief.modern.mjs'
 const colorThief = new ColorThief();
 
 const clima = async (lugar) => {
-  const url = 'https://weatherapi-com.p.rapidapi.com/current.json?q=' + lugar;
+  const url = 'https://weatherapi-com.p.rapidapi.com/current.json' + lugar;
   const options = {
     method: 'GET',
     headers: {
       'content-type': 'application/octet-stream',
-      'X-RapidAPI-Key': '1592e28623msha1546bdbbb37bf4p1bec8djsn65cf0e56a3df',
+      'X-RapidAPI-Key': '834eeebe63msh28803bdb79271a1p1d9430jsn88a7b7c3fac0',
       'X-RapidAPI-Host': 'weatherapi-com.p.rapidapi.com'
     }
   }
